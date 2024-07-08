@@ -128,7 +128,8 @@ button {
 }
 
 .about_container > h1,
-.heading > h1 {
+.heading > h1,
+.summary_container > div > h1 {
   color: #181818;
   font-size: 35px;
   font-weight: 700;
@@ -157,7 +158,8 @@ button {
   line-height: 30px;
 }
 
-.experience_section {
+.experience_section,
+.Summary_section {
   border-radius: 8px;
   width: 90%;
   margin: 130px auto;
@@ -214,4 +216,57 @@ button {
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
+}
+
+.Summary_section {
+  text-align: center;
+}
+
+.summary_container > div > h1 {
+  margin-bottom: 113px;
+}
+
+.edu_exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  text-align: start;
+  gap: 30px;
+}
+
+.edu_exp_child > h3 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.edu_exp_child > div {
+  margin-bottom: 30px;
+}
+.edu_exp_child > div > h5 {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.edu_exp_child > div > span {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.edu_exp_child > div > P {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  margin-top: 50px;
 }
