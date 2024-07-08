@@ -270,3 +270,69 @@ button {
 .btn {
   margin-top: 50px;
 }
+
+.footer_section {
+  background: #fff8f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 780px;
+}
+
+.foot_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 80%;
+}
+
+.foot_container > div > h3 {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.foot_container > div > p {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.social {
+  color: #fd6e0a;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 20%;
+}
+
+.message > input,
+.message > textarea {
+  background: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 18px 30px;
+  width: 70%;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.contact {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.message {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.contact > P {
+  width: 80%;
+}
