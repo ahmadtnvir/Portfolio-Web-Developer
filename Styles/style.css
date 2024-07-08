@@ -113,7 +113,7 @@ button {
   margin: 130px auto;
   display: flex;
   justify-content: center;
-  align-self: center;
+  align-items: center;
   padding: 130px 150px;
 }
 
@@ -127,13 +127,15 @@ button {
   text-align: center;
 }
 
-.about_container > h1 {
+.about_container > h1,
+.heading > h1 {
   color: #181818;
   font-size: 35px;
   font-weight: 700;
 }
 
-.about_container p {
+.about_container p,
+.heading > p {
   color: #757575;
   font-size: 18px;
   font-weight: 400;
@@ -153,4 +155,63 @@ button {
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
+}
+
+.experience_section {
+  border-radius: 8px;
+  width: 90%;
+  margin: 130px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience_container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.heading > h1 {
+  margin-bottom: 30px;
+}
+
+.skills_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px 33px;
+  border-radius: 8px;
+}
+
+.card > img {
+  margin-bottom: 30px;
+}
+
+.card > h4 {
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card > p {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
